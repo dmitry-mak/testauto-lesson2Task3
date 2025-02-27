@@ -53,7 +53,7 @@ public class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data.name", equalTo("Ivan"))
+                .body("data.name", equalTo("Dmitry"))
                 .body("data.age", equalTo("40"));
     }
 }
